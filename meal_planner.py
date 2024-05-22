@@ -4,7 +4,7 @@ import openai
 
 # flake8: noqa
 # Set the OpenAI API key
-openai.api_key = st.secrets(["openai_key"])
+openai.api_key = st.secrets["openai_key"]
 
 
 # Define the function to call GPT-3.5-turbo API
